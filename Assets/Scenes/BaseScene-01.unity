@@ -108,6 +108,64 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &62469609 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1609461826711720, guid: be6d2682ed78594478b7f24df7fd478a,
+    type: 2}
+  m_PrefabInternal: {fileID: 726579461}
+--- !u!114 &62469614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62469609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  min: {x: 0, y: -1, z: 0}
+  max: {x: 0, y: 3, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.7, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
+  tX: 0
+  tY: 0
+  tZ: 0
+  distanceX: 0
+  distanceY: 0
+  distanceZ: 0
+  lengthX: 0
+  lengthY: 0
+  lengthZ: 0
+--- !u!1 &291970770 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1679157213930696, guid: be6d2682ed78594478b7f24df7fd478a,
+    type: 2}
+  m_PrefabInternal: {fileID: 726579461}
+--- !u!114 &291970775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291970770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  min: {x: 0, y: 0, z: 0}
+  max: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.5, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
+  tX: 0
+  tY: 0
+  tZ: 0
+  distanceX: 0
+  distanceY: 0
+  distanceZ: 0
+  lengthX: 0
+  lengthY: 0
+  lengthZ: 0
 --- !u!1 &517058976
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,6 +255,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &596391559 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1302335763314998, guid: be6d2682ed78594478b7f24df7fd478a,
+    type: 2}
+  m_PrefabInternal: {fileID: 726579461}
+--- !u!114 &596391564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 596391559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  min: {x: 0, y: 0, z: 0}
+  max: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.1, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
+  tX: 0
+  tY: 0
+  tZ: 0
+  distanceX: 0
+  distanceY: 0
+  distanceZ: 0
+  lengthX: 0
+  lengthY: 0
+  lengthZ: 0
 --- !u!1001 &726579461
 Prefab:
   m_ObjectHideFlags: 0
@@ -235,6 +322,10 @@ Prefab:
     - target: {fileID: 4830070934827618, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383564466422620, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
@@ -304,3 +395,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1859661642 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1635158525620140, guid: be6d2682ed78594478b7f24df7fd478a,
+    type: 2}
+  m_PrefabInternal: {fileID: 726579461}
+--- !u!114 &1859661647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859661642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  min: {x: 0, y: 0, z: 0}
+  max: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.3, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
+  tX: 0
+  tY: 0
+  tZ: 0
+  distanceX: 0
+  distanceY: 0
+  distanceZ: 0
+  lengthX: 0
+  lengthY: 0
+  lengthZ: 0
