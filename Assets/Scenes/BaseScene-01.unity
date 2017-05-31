@@ -113,7 +113,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1609461826711720, guid: be6d2682ed78594478b7f24df7fd478a,
     type: 2}
   m_PrefabInternal: {fileID: 726579461}
---- !u!114 &62469614
+--- !u!114 &62469611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -121,22 +121,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 62469609}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dee7cc478db324f910548f1f8e007d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
+--- !u!114 &62469614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62469609}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: {x: 0, y: -1, z: 0}
-  max: {x: 0, y: 3, z: 0}
-  moveUnitsPerSecond: {x: 0, y: 0.7, z: 0}
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
   rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
-  tX: 0
-  tY: 0
-  tZ: 0
-  distanceX: 0
-  distanceY: 0
-  distanceZ: 0
-  lengthX: 0
-  lengthY: 0
-  lengthZ: 0
 --- !u!1 &291970770 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1679157213930696, guid: be6d2682ed78594478b7f24df7fd478a,
@@ -148,24 +154,30 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 291970770}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: {x: 0, y: 0, z: 0}
-  max: {x: 0, y: 2, z: 0}
-  moveUnitsPerSecond: {x: 0, y: 0.5, z: 0}
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
   rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
-  tX: 0
-  tY: 0
-  tZ: 0
-  distanceX: 0
-  distanceY: 0
-  distanceZ: 0
-  lengthX: 0
-  lengthY: 0
-  lengthZ: 0
+--- !u!114 &291970776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291970770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dee7cc478db324f910548f1f8e007d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
 --- !u!1 &517058976
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,24 +278,30 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 596391559}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: {x: 0, y: 0, z: 0}
-  max: {x: 0, y: 2, z: 0}
-  moveUnitsPerSecond: {x: 0, y: 0.1, z: 0}
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
   rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
-  tX: 0
-  tY: 0
-  tZ: 0
-  distanceX: 0
-  distanceY: 0
-  distanceZ: 0
-  lengthX: 0
-  lengthY: 0
-  lengthZ: 0
+--- !u!114 &596391565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 596391559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dee7cc478db324f910548f1f8e007d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
 --- !u!1001 &726579461
 Prefab:
   m_ObjectHideFlags: 0
@@ -326,6 +344,22 @@ Prefab:
     - target: {fileID: 4383564466422620, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
       propertyPath: m_LocalPosition.y
       value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113117826855136, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927153822670006, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936951678235490, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430539467436968, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be6d2682ed78594478b7f24df7fd478a, type: 2}
@@ -406,21 +440,27 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1859661642}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9a5a1db7a35b3549b7b9dfb910e40b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min: {x: 0, y: 0, z: 0}
-  max: {x: 0, y: 2, z: 0}
-  moveUnitsPerSecond: {x: 0, y: 0.3, z: 0}
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
   rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
-  tX: 0
-  tY: 0
-  tZ: 0
-  distanceX: 0
-  distanceY: 0
-  distanceZ: 0
-  lengthX: 0
-  lengthY: 0
-  lengthZ: 0
+--- !u!114 &1859661648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859661642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dee7cc478db324f910548f1f8e007d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minOffset: {x: 0, y: -1, z: 0}
+  maxOffset: {x: 0, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
+  rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
