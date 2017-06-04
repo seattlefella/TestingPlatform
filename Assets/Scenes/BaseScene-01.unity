@@ -124,9 +124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6dee7cc478db324f910548f1f8e007d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minOffset: {x: 0, y: -1, z: 0}
-  maxOffset: {x: 0, y: 2, z: 0}
-  moveUnitsPerSecond: {x: 0, y: 0.4, z: 0}
+  minOffset: {x: -1, y: -1, z: -1}
+  maxOffset: {x: 2, y: 2, z: 0}
+  moveUnitsPerSecond: {x: 0.4, y: 0.4, z: 0}
   rotateUnitsPerSecond: {x: 0, y: 0, z: 0}
 --- !u!114 &62469614
 MonoBehaviour:
